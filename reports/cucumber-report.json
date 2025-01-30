@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "mobile-phone-filter-on-amazon-germany;display-mobile-phones-based-on-purchase-conditions",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Display mobile phones based on purchase conditions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://www.amazon.de\"",
+            "match": {
+              "location": "file:\\C:\\Users\\PremSat\\Desktop\\PlayWrite\\tests\\steps\\mobile_price_filter.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5013069499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\PremSat\\Desktop\\PlayWrite\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the \"All\" link text on the left side of the homepage",
+            "match": {
+              "location": "file:\\C:\\Users\\PremSat\\Desktop\\PlayWrite\\tests\\steps\\mobile_price_filter.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on \"Electronics & Computers\" under the All categories section",
+            "match": {
+              "location": "file:\\C:\\Users\\PremSat\\Desktop\\PlayWrite\\tests\\steps\\mobile_price_filter.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on \"Phones & Accessories\" under the Electronics & Computers section",
+            "match": {
+              "location": "file:\\C:\\Users\\PremSat\\Desktop\\PlayWrite\\tests\\steps\\mobile_price_filter.js:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "mobile-phone-filter-on-amazon-germany",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Mobile phone filter on Amazon Germany",
+    "tags": [],
+    "uri": "tests\\features\\mobile_price_filter.feature"
+  }
+]
